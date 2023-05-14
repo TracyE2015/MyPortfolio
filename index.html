@@ -28,13 +28,13 @@
             <div class="about-me-container">
                 <div class="about-me-text-container">
                     <h2>About Me</h2>
-                    <p>Hi, my name is Tracy Evans. I have a background in Software Engineering
+                    <p>Hi, my name is Tracy Evans. I have a background in Software Engineering <br>
                         where I designed and maintained documentation, relational databases and
-                        database tools.</p>
+                        <br> database tools.</p>
                     <p> I am currently in the process of learning skills to become a Full Stack 
-                        Engineer thru an online course from Codecademy.
+                        Engineer <br> thru an online course from Codecademy.
                     </p>    
-                    <p>I am always interested in challenge so if you have any projects you can always
+                    <p>I am always interested in challenge so if you have any projects you can always <br>
                         contact me at taniq_evans@yahoo.com.  </p>
                 </div>
             </div>
@@ -43,12 +43,15 @@
         <section id="projects">
             <h2>Projects</h2>
             <p>My Codecademy Projects</p>
-            <div>
-                <ul>
-                    <li><a href="./resources/images/CompanyPage.png">Company Home Page</a></li>
-                    <li><a href="./resources/images/TeaCozy.png">TeaCozy</a></li>
-                </ul>
-            </div>
+            <details class="project">
+                <summary>Company Home Page</summary>
+                <img class="proj-image" src="./resources/images/CompanyPage.png" alt="
+            Company Home Page">
+            </details>
+            <details>
+                <summary>Tea Cozy</summary>
+                <img class="proj-image" src="./resources/images/TeaCozy.png" alt="Tea Cozy">
+            </details>   
         
         </section>
 
@@ -69,9 +72,10 @@
 
         </section>
     </main>
-    <footer>
-
-    </footer>
-    <script></script>
+    <p id="demo"></p>
+    <script>
+       const d = new Date("03/25/2015");
+       document.getElementById("demo").innerHTML = d; 
+    </script>
   </body>
 </html>

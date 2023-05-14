@@ -1,0 +1,45 @@
+html {
+    font-size: 16px;
+    color: rgb(0, 11, 49);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("./images/portfolio-bkgd.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    top: 0;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 1rem 2rem;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.proj-image {
+    width: 200px;
+    height: 200px;
+}
+
+#skills-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
